@@ -1,0 +1,83 @@
+body {
+  background-color: #F8F8F8;
+}
+/* Start navbar  */
+@media (max-width:767px) {
+  .navbar .container nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media (max-width:991px) {
+  .navbar ul {
+    gap: 15px;
+  }
+}
+@media (min-width: 100px) and (max-width: 600px) {
+  .hide-between-390-600 {
+    display: none;
+  }
+  .navbar ul {
+    margin-left: 15px ;
+  }
+}
+/* End navbar  */
+/* Start home page  */
+.home-page {
+  background-image: url(/images/strategy-section-bg.png);
+  background-repeat: no-repeat;
+  background-position:  center right;
+  background-size: 15%;
+}
+/* End home page  */
+/* Start strategy sopnsers */
+.strategy {
+  background-image: url(/images/strategy-section-bg.png);
+  background-repeat: no-repeat;
+  background-position:  top right;
+  background-size: 15%;
+}
+/* End strategy sopnsers */
+/* Start our services  */
+.our-services {
+  background-image: url(/images/strategy-section-bg.png);
+  background-repeat: no-repeat;
+  background-position:  top right;
+  background-size: 15%;
+}
+.our-services .container {
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 35%;
+  background-image: url(/images/services-section-bg.png);
+}
+/* End our services  */
+/* Start sales  */
+.sales {
+  background-image: url(/images/strategy-section-bg.png);
+  background-repeat: no-repeat;
+  background-position:  top right;
+  background-size: 15%;
+}
+.sales .container {
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 35%;
+  background-image: url(/images/services-section-bg.png);
+}
+/* End sales  */
+/* Start pricing */
+.pricing {
+  background-image: url(/images/pricing-section-left-bg.png);
+  background-repeat: no-repeat;
+  background-position: right top ;
+  background-size: 20%;
+}
+.pricing-model {
+  background-image: url(/images/pricing-section-right-bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom ;
+  background-size: 25%;
+}
+
+/* End pricing */
